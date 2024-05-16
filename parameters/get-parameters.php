@@ -91,10 +91,10 @@ $sslcert    = 'ssl/DigiCertGlobalRootCA.crt.pem';
 // Configuration for database connection
 
 # REMOTE DECLARATION
-$host       = getenv('DB_HOST');
-$username   = getenv('DB_USERNAME');
-$password   = getenv('DB_PASSWORD');
-$db_name     = getenv('DB_DATABASE');
+$host       = getenv('DB-HOST');
+$username   = getenv('DB-USERNAME');
+$password   = getenv('DB-PASSWORD');
+$db_name     = getenv('DB-DATABASE');
 $sslcert    = 'ssl/DigiCertGlobalRootCA.crt.pem';
 #$sslcert   = getenv('DB_SSLCERT');
 
